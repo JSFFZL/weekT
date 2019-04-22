@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+   
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="left">
+			<ul class="tab">
+				<li class="active">收入</li>
+				<li>支出</li>
+			</ul>
+			
+			<label>
+				金额
+				<input type="text" name="" id="money" value="" />
+			</label>
+			<label>
+				时间
+				<input type="text" name="" id="time" value="" placeholder="" />
+			</label>
+			<label>
+				备注
+			<input type="text" name="" id="remark" value="" />
+			</label>
+			<p>分类</p>
+			<select class="select">
+				<option value ="衣">衣</option>
+				<option value ="食">食</option>
+				<option value ="住">住</option>
+				<option value ="红包">红包</option>
+				<option value ="工资">工资</option>
+			</select>
+			<p>成员</p>
+			<select class="family">
+				<option value ="对象">对象</option>
+				<option value ="自己">自己</option>
+				<option value ="父母">父母</option>
+			</select>
+			<button type="button" class="mui-btn mui-btn-blue ok">确认</button>
+		</div>
+		<div class="right">
+			<ul>
+				<li>
+					<span>日期</span>
+					<span>分类</span>
+					<span>金额</span>
+					<span>成员</span>
+					<span>备注</span>
+				</li>
+			</ul>
+			<ul class="list">
+				
+			<!-- 	<li>
+					<span>日期</span>
+					<span>分类</span>
+					<span>金额</span>
+					<span>成员</span>
+					<span>备注</span>
+				</li> -->
+			</ul>
+			
+		</div>
+	</div>
+	
+	<script src="js/libs/require.js" async defer type="text/javascript" charset="utf-8" data-main="js/index"></script>
+</body>
+</html>

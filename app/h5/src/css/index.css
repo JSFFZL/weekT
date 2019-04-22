@@ -1,0 +1,70 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video  {
+    margin: 0;
+    padding: 0;
+}
+li{
+	list-style: none;
+}
+html,body{
+	font-size: 14px;
+}
+
+.wrapper{
+	display: flex;
+	padding: 20px;
+}
+
+.wrapper .left{
+	/* flex: 350px; */
+	width: 40%;
+	border: solid red 1px;
+	
+}
+
+.wrapper .left .tab{
+	display: flex;
+	border: solid #2AC845 1px;
+}
+.wrapper .left .tab li{
+	flex: 1;
+	padding:10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.wrapper .right{
+	flex: 1;
+	border: solid blue 1px;
+}
+
+.wrapper .right ul li{
+	display: flex;
+	padding: 6px 0;
+	border-bottom: solid #333333 1px;
+}
+.wrapper .right span{
+	flex: 1;
+	text-align: center;
+}
+
+.active{
+	background: #007AFF;
+	color: #fff;
+}
+.red{
+	color: red;
+	font-weight: bold;
+}
